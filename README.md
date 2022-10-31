@@ -5,9 +5,9 @@
 | -                                                                               | -                                                           |
 | [Zabbix](https://www.zabbix.com/)                                               | Node monitoring via [SNMP](https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol)/[ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) |
 | [Rocket Chat](https://www.rocket.chat/)                                         | IM chat similar to MS Teams                                 |
+| [WWW Server](https://www.nginx.com/)                                            | Website delivered via NGINX                                 |
 | [HTTPS File Server](https://www.nginx.com/resources/wiki/modules/fancy_index/)  | Delivers files via HTTPS                                    |
-| [WWW Server](https://www.nginx.com/resources/wiki/modules/fancy_index/)         | Website delivered via [NGINX](https://www.nginx.com/)       |
-| [Reverse Proxy](https://www.nginx.com/)                                         | Handles forward facing HTTPS and proxies HTTP to backend    |
+| [Reverse Proxy](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) | Handles forward facing HTTPS and proxies HTTP to backend |
 | [Guacamole](https://guacamole.apache.org/)                                      | Centralized SSH/RDP/VNC Gateway                             |
 | [VS Code](https://code.visualstudio.com/)                                       | Remote IDE/text editor                                      |
 | [ELK Stack](https://www.elastic.co/what-is/elk-stack)                           | [NetFlow](https://en.wikipedia.org/wiki/NetFlow) collection and visualization |
