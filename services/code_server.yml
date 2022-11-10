@@ -9,7 +9,7 @@ services:
     env_file:
       - env/linuxserver.env
       - env/cs.env
-      #- secrets/cs.env
+      - secrets/cs.env
     ports:
       - $SRV_SWAG_PROXY:$CS_H_PORT:8443
     volumes:
@@ -20,4 +20,4 @@ services:
     deploy:
       resources:
         limits:
-          memory: 2g
+          memory: 8g
