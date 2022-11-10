@@ -13,7 +13,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1g
+          memory: 8g
   #run once to intiate database
   #sudo docker exec -it prod_rocket_db mongo --eval "printjson(rs.initiate())"
   rocket_chat:
@@ -34,4 +34,4 @@ services:
     deploy:
       resources:
         limits:
-          memory: 4g
+          memory: 8g

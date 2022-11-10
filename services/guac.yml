@@ -11,7 +11,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 512m
+          memory: 8g
   guac_db:
     depends_on:
       - guacd
@@ -34,7 +34,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 512m
+          memory: 8g
   guac:
     depends_on:
       - guacd
@@ -61,4 +61,4 @@ services:
     deploy:
       resources:
         limits:
-          memory: 2g
+          memory: 8g

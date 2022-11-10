@@ -18,7 +18,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1g
+          memory: 8g
   zabbix_srv:
     container_name: ${COMPOSE_PROJECT_NAME}_zabbix_srv
     hostname: zabbix_srv
@@ -35,7 +35,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1g
+          memory: 8g
   zabbix_www:
     container_name: ${COMPOSE_PROJECT_NAME}_zabbix_www
     hostname: zabbix_www
@@ -54,7 +54,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1g
+          memory: 8g
   zabbix_agent:
     container_name: ${COMPOSE_PROJECT_NAME}_zabbix_agent
     hostname: zabbix_agent
@@ -78,4 +78,4 @@ services:
     deploy:
       resources:
         limits:
-          memory: 512m
+          memory: 8g
