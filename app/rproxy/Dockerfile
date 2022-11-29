@@ -5,7 +5,6 @@ ENV TZ="US/Hawaii"
 #https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 COPY ./nginx/. /etc/nginx/
-#COPY ./html/. /usr/share/nginx/html/
 
 LABEL maintainer="notarobot" \
   org.label-schema.name="WWW" \
